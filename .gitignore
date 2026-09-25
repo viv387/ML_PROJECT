@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Data files (large)
+*.csv
+*.tsv
+*.json
+*.parquet
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+data/raw/
+data/processed/
+
+# Model files
+*.pt
+*.pth
+*.onnx
+*.bin
+*.model
+models/
+
+# Logs & outputs
+logs/
+*.log
+runs/
+outputs/
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.*
+
+# MLflow / wandb
+mlruns/
+wandb/
